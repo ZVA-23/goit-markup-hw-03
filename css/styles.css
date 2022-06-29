@@ -86,8 +86,7 @@ body {
     color: var(--accent-color);
 }
 
-.nav-link.current,
-.contact-link.current {
+.nav-link.current {
     color: var(--accent-color);
 }
 
@@ -142,7 +141,8 @@ body {
 /* Features */
 .feature-title {
     color: var(--title-text-color);
-
+    
+    font-size: 14px;
     line-height:1.14;
     text-transform: uppercase;
 }
@@ -256,10 +256,6 @@ body {
     text-decoration: none;
 }
 
-.address-item:hover,
-.address-item:focus {
-    color: var(--accent-color);
-}
 
 .address-item.current {
     color: var(--secondary-white-color);
