@@ -63,7 +63,7 @@ html {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    /* outline: 1px solid red; */
+    /* outline: 1px solid red;  */
 }
 
 .img {
@@ -159,12 +159,12 @@ html {
 /* Hero */
 
 .hero {
-    padding: 200px 452px;
+    padding: 200px 0;
     background-color: #2F303A;
 }
 
 .hero-title {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -209,7 +209,7 @@ html {
 }
 
 .section-title {
-    margin-top: 0pt;
+    margin-top: 0;
     margin-bottom: 50px;
     color: var(--title-text-color);
 
@@ -231,7 +231,7 @@ html {
 }
 
 .feature-item:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .feature-title {
@@ -255,9 +255,13 @@ html {
 
 /* Our work */
 
+.works {
+    padding-top: 0;
+}
+
 .work {
     display: flex;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .work-item {
@@ -266,14 +270,18 @@ html {
 }
 
 .work-item:nth-child(3n) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 /* Our team */
 
+.teams {
+    background-color: #F5F4FA;
+}
+
 .team {
     display: flex;
-    background-color: #F5F4FA;
+
 }
 
 .team-item {
@@ -282,7 +290,7 @@ html {
 }
 
 .team-item:nth-child(4n) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .card {
@@ -297,7 +305,7 @@ html {
 }
 
 .team-name {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 10px;
 
     color: var(--title-text-color);
@@ -309,8 +317,8 @@ html {
 }
 
 .team-description {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 
     font-size: 16px;
     line-height: 1.19;
@@ -322,18 +330,18 @@ html {
 
 /* Button projects */
 
-.filter {
+.project-filter {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .button-item {
-    margin-bottom: 34px;
     margin-left: 8px;
 }
 
 .button-item:first-child {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .primary-button {
@@ -399,11 +407,11 @@ html {
 } */
 
 .project-item:nth-child(3n) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .project-item:nth-last-child(-n + 3) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 /* Альтернатива */
@@ -422,7 +430,7 @@ html {
 }
 
 .project-name {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 4px;
 
     color: var(--title-text-color);
@@ -433,7 +441,7 @@ html {
 
 .project-position {
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 
     font-size: 16px;
     line-height: 1.88;
@@ -449,7 +457,7 @@ html {
     background-color: #2F303A;
 }
 
-.address {
+.address-info {
     margin-top: 20px;
     font-style: normal;
 }
@@ -459,7 +467,7 @@ html {
 }
 
 .address-item:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
  .address-link {
@@ -478,3 +486,5 @@ html {
 .address-link.current:focus {
     color: var(--accent-color);
 }
+
+
